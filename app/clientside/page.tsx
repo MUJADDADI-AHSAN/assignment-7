@@ -14,8 +14,9 @@ const page = async () => {
   return (
     <div className='bg-black'>
         <div className='gap-3 grid lg:grid-cols-3 p-32 md:grid-cols-2'>
-      {parsedResponse.map((elem:any,i:any)=>(  
-           <div>
+      {parsedResponse.map((elem:any)=>(
+          
+           <div  > 
           <div className="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
   <a href="#">
     <Image
